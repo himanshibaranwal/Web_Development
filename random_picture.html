@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<script>
+//create an array named imagesArray that contains the seven image file names
+//dog.jpg, fox.jpg, mouse.jpg, alligator.jpg, fish.jpg, parrot.jpg and cat.jpg
+var imagesArray = ["andrew-neel-227873.jpgdog.jpg", "ayo-ogunseinde-324306.jpg", "bekir-donmez-372569.jpg", "brandon-morgan-17707.jpg", "fineas-anton-108019.jpg", "igor-ovsyannykov-97071.jpg"];
+
+
+//create a function named displayImage
+//it should not have any values passed into it
+
+function displayImage(){
+
+    //the first statement should generate a random number in the range 0 to 6 (the subscript values of the image file names in the imagesArray)
+    var num = Math.floor(Math.random() * 6); // 0...5
+    //the second statement display the random image from the imagesArray array in the canvas image using the random number as the subscript value
+    document.getElementById("img").src = imagesArray[num];
+
+}
+
+//create a function named displayImage
+//it should not have any values passed into it
+//the statement block of the displayImage should have two statements
+//the first statement should generate a random number in the range 0 to 6 (the subscript values of the image file names in the imagesArray)
+//the second statement display the random image from the imagesArray array in the canvas image using the random number as the subscript value
+//when you generate the random number you might want to use the following formula
+//a random number * the number of images in the imagesArray (Hint use the appropriate Math method to generate a random number
+//remember the subscript values of the array are 0 to 6 (seven elements) zero based array
+//you will have to subtract 1 from the random number generated to account for the zero based array
+//In the button tag below add an onClick event handler that calls the displayImage function
+//do not pass any value to the displayImage function
+
+
+
+
+</script>
+</HEAD>
+
+<BODY>
+<button onclick="displayImage()">Next</button>
+<img src="priscilla-du-preez-228220" id="img">
+</BODY>
+</HTML>

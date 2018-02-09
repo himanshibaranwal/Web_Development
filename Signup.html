@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Signup</title>
+	<style>
+    .fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-instagram {
+  background: #da1740;
+  color: white;
+}
+</style>
+</head>
+<body>
+<div class="container"> 
+<!-- navigation bar-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">TOON</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Offers</a></li>
+      <li><a href="#">About Us</a></li>
+    </ul>
+   </div>
+  </nav>
+</div>
+<div class="container" style="margin:100px 100px 100px 100px;">
+	<form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control"  id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" name="remember"> Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+    <!--Social media-->
+    <div class="jumbotron" style="background-color: #332929">
+      <div style="margin: 10px 0px 0px 60px; width: 255px;">
+        <h3 style="color:#797373">Share us on!</h3>
+        <a href="#" class="fa fa-facebook" style="text-decoration: none"></a>
+        <a href="#" class="fa fa-twitter" style="text-decoration: none;"></a>
+        <a href="#" class="fa fa-google" style="text-decoration: none;"></a>
+        <a href="#" class="fa fa-instagram" style="text-decoration: none;"></a>
+        <h2 style="color: white">Fashion Trendz</h2>
+      </div>
+      <form class="form-inline" action="/action_page.php" style="margin-top: -100px; margin-left: 830px;">
+    		<div class="form-group">
+     		 	<label for="email" style="color:LightGray">Email:</label>
+      			<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+   			</div>
+    		<button type="button" class="btn btn-warning">Sign-in</button>
+    	</form>
+    	<center>
+      	<footer style="color: #797373; margin-top: 100px;">&copy 2017 Website Designing. All rights reserved.
+          <pre>Sitemap | Website Terms | Privacy</pre> 
+        </footer>
+      </center>
+     </div>
+</body>
+</html>

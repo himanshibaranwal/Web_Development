@@ -1,0 +1,57 @@
+body
+{
+	background-color: #ffdddd;
+}
+.main
+{
+	margin: 100px 0px 0px 50px;
+	padding:5px;
+	font-family: sans-serif;
+}
+.name
+{
+	font-size: 5em; 
+}
+.des
+{
+	font-size:4em;
+}
+.photo
+{
+	float: left;
+	margin: -490px 0px 0px 750px;
+	height: 10px;
+	width: 20%;
+}
+.para
+{
+	margin-left: 30px;
+	font-family: sans-serif;
+	font-size: 2em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    border: none ;
+    padding: 3px;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 2em;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
